@@ -43,3 +43,6 @@ ffmpeg-python>=0.2.0
 jinja2 
 apscheduler 
 colorama
+fastapi
+python-telegram-bot
+uvicorn
