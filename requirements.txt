@@ -36,7 +36,7 @@ opencv-python-headless==4.7.0.68
  psutil==5.9.4  
  NumPy  
  wheel  
- dnspython==2.3.0 
+ dnspython==2.6.1 
 python-decouple 
 ffmpeg-python>=0.2.0 
  
