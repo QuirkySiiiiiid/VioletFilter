@@ -2,8 +2,23 @@
   "version": 2,
   "builds": [
     {
-      "src": "manage.py",
+      "src": "api/bot.py",
       "use": "@vercel/python"
     }
-  ]
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "api/bot.py"
+    }
+  ],
+  "env": {
+    "API_ID": "your_api_id",
+    "API_HASH": "your_api_hash",
+    "BOT_TOKEN": "your_bot_token",
+    "ADMINS": "your_admin_ids",
+    "LOG_CHANNEL": "your_log_channel_id",
+    "CHANNELS": "your_channel_ids",
+    "DATABASE_URL": "your_database_url"
+  }
 }
